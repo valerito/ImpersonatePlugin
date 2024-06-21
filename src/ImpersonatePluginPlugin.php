@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Valerito\ImpersonatePlugin;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class ImpersonatePluginPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'impersonateplugin';
     }
 
     public function register(Panel $panel): void

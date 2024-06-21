@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Valerito\ImpersonatePlugin\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ImpersonatePluginCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'impersonateplugin';
 
     public $description = 'My command';
 
